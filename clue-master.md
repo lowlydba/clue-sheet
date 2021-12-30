@@ -1,45 +1,45 @@
-# Clue Master
+# Clue Master - Detective Sheet
 
 ## Suspects
 
 | Name | Status |
 | - | - |
 | Col. Mustard | <input title="col-mustard" type="button" class="multi-checkbox" onclick="tristate(this)" value="&#x2B1C;" /> |
-| Prof. Plum | <select name="prof-plum" id="plum"><option value="none"></option> <option value="check">✔️</option> <option value="question">❓</option> <option value="x">❌</option></select>|
-| Mr. Green | <select name="mr-green" id="green"><option value="none"></option> <option value="check">✔️</option> <option value="question">❓</option> <option value="x">❌</option></select>|
-| Mrs. Peacock | <select name="mrs-peacock" id="peacock"><option value="none"></option> <option value="check">✔️</option> <option value="question">❓</option> <option value="x">❌</option></select>|
-| Mrs. Scarlet | <select name="mrs-scarlet" id="scarlet"><option value="none"></option> <option value="check">✔️</option> <option value="question">❓</option> <option value="x">❌</option></select>|
-| Mme. Rose | <select name="mme-rose" id="rose"><option value="none"></option> <option value="check">✔️</option> <option value="question">❓</option> <option value="x">❌</option></select>|
-| Sgt. Gray | <select name="mgt-gray" id="gray"><option value="none"></option> <option value="check">✔️</option> <option value="question">❓</option> <option value="x">❌</option></select>|
-| M. Brunette | <select name="m-brunette" id="brunette"><option value="none"></option> <option value="check">✔️</option> <option value="question">❓</option> <option value="x">❌</option></select>|
-| Ms. Peach | <select name="ms-peach" id="peach"><option value="none"></option> <option value="check">✔️</option> <option value="question">❓</option> <option value="x">❌</option></select>|
+| Prof. Plum | <input title="prof-plum" type="button" class="multi-checkbox" onclick="tristate(this)" value="&#x2B1C;" /> |
+| Mr. Green | <input title="mr-green" type="button" class="multi-checkbox" onclick="tristate(this)" value="&#x2B1C;" /> |
+| Mrs. Peacock | <input title="mrs-peacock" type="button" class="multi-checkbox" onclick="tristate(this)" value="&#x2B1C;" /> |
+| Mrs. Scarlet | <input title="mrs-scarlet" type="button" class="multi-checkbox" onclick="tristate(this)" value="&#x2B1C;" /> |
+| Mme. Rose | <input title="mme-rose" type="button" class="multi-checkbox" onclick="tristate(this)" value="&#x2B1C;" />  |
+| Sgt. Gray | <input title="sgt-gray" type="button" class="multi-checkbox" onclick="tristate(this)" value="&#x2B1C;" /> |
+| M. Brunette | <input title="m-brunette" type="button" class="multi-checkbox" onclick="tristate(this)" value="&#x2B1C;" /> |
+| Ms. Peach | <input title="ms-peach" type="button" class="multi-checkbox" onclick="tristate(this)" value="&#x2B1C;" /> |
 
 ## Weapons
 
 | Name | Status |
 | - | - |
-| Knife| <select name="knife" id="knife"><option value="none"></option> <option value="check">✔️</option> <option value="question">❓</option> <option value="x">❌</option></select> |
-| Candlestsick | <select name="candlestick" id="candlestick"><option value="none"></option> <option value="check">✔️</option> <option value="question">❓</option> <option value="x">❌</option></select> |
-| Revolver | <select name="revolver" id="revolver"><option value="none"></option> <option value="check">✔️</option> <option value="question">❓</option> <option value="x">❌</option></select> |
-| Rope | <select name="rope" id="rope"><option value="none"></option> <option value="check">✔️</option> <option value="question">❓</option> <option value="x">❌</option></select> |
-| Lead Pipe | <select name="lead-pipe" id="lead-pipe"><option value="none"></option> <option value="check">✔️</option> <option value="question">❓</option> <option value="x">❌</option></select> |
-| Wrench | <select name="wrench" id="wrench"><option value="none"></option> <option value="check">✔️</option> <option value="question">❓</option> <option value="x">❌</option></select> |
-| Poison | <select name="poison" id="poison"><option value="none"></option> <option value="check">✔️</option> <option value="question">❓</option> <option value="x">❌</option></select> |
-| Horseshoe | <select name="horseshoe" id="horseshoe"><option value="none"></option> <option value="check">✔️</option> <option value="question">❓</option> <option value="x">❌</option></select> |
+| Knife| <input title="knife" type="button" class="multi-checkbox" onclick="tristate(this)" value="&#x2B1C;" /> |
+| Candlestsick | <input title="candlestick" type="button" class="multi-checkbox" onclick="tristate(this)" value="&#x2B1C;" /> |
+| Revolver | <input title="revolver" type="button" class="multi-checkbox" onclick="tristate(this)" value="&#x2B1C;" /> |
+| Rope | <input title="rope" type="button" class="multi-checkbox" onclick="tristate(this)" value="&#x2B1C;" /> |
+| Lead Pipe | <input title="lead-pipe" type="button" class="multi-checkbox" onclick="tristate(this)" value="&#x2B1C;" /> |
+| Wrench | <input title="wrench" type="button" class="multi-checkbox" onclick="tristate(this)" value="&#x2B1C;" /> |
+| Poison | <input title="poison" type="button" class="multi-checkbox" onclick="tristate(this)" value="&#x2B1C;" /> |
+| Horseshoe | <input title="horseshoe" type="button" class="multi-checkbox" onclick="tristate(this)" value="&#x2B1C;" /> |
 
 ## Rooms
 
 | Name  | Status  |
 | - | - |
-| Courtyard | <select name="courtyard" id="courtyard"><option value="none"></option> <option value="check">✔️</option> <option value="question">❓</option> <option value="x">❌</option></select> |
-| Gazebo | <select name="gazebo" id="hall"><option value="gazebo"></option> <option value="check">✔️</option> <option value="question">❓</option> <option value="x">❌</option></select> |
-| Drawing Room | <select name="drawing-room" id="drawing-room"><option value="none"></option> <option value="check">✔️</option> <option value="question">❓</option> <option value="x">❌</option></select> |
-| Dining Room | <select name="dining-room" id="dining-room"><option value="none"></option> <option value="check">✔️</option> <option value="question">❓</option> <option value="x">❌</option></select> |
-| Kitchen | <select name="kitchen" id="kitchen"><option value="none"></option> <option value="check">✔️</option> <option value="question">❓</option> <option value="x">❌</option></select> |
-| Carriage House | <select name="carriage-house" id="carriage-house"><option value="none"></option> <option value="check">✔️</option> <option value="question">❓</option> <option value="x">❌</option></select> |
-| Trophy Room | <select name="trophy-room" id="trophy-room"><option value="none"></option> <option value="check">✔️</option> <option value="question">❓</option> <option value="x">❌</option></select> |
-| Conservatory | <select name="conservatory" id="conservatory"><option value="none"></option> <option value="check">✔️</option> <option value="question">❓</option> <option value="x">❌</option></select> |
-| Studio | <select name="studio" id="studio"><option value="none"></option> <option value="check">✔️</option> <option value="question">❓</option> <option value="x">❌</option></select> |
-| Billiard Room | <select name="billiard-room" id="billiard-room"><option value="none"></option> <option value="check">✔️</option> <option value="question">❓</option> <option value="x">❌</option></select> |
-| Library | <select name="library" id="library"><option value="none"></option> <option value="check">✔️</option> <option value="question">❓</option> <option value="x">❌</option></select> |
-| Fountain | <select name="fountain" id="fountain"><option value="none"></option> <option value="check">✔️</option> <option value="question">❓</option> <option value="x">❌</option></select> |
+| Courtyard | <input title="courtyard" type="button" class="multi-checkbox" onclick="tristate(this)" value="&#x2B1C;" /> |
+| Gazebo | <input title="gazebo" type="button" class="multi-checkbox" onclick="tristate(this)" value="&#x2B1C;" /> |
+| Drawing Room | <input title="drawing-room" type="button" class="multi-checkbox" onclick="tristate(this)" value="&#x2B1C;" /> |
+| Dining Room | <input title="dining-room" type="button" class="multi-checkbox" onclick="tristate(this)" value="&#x2B1C;" /> |
+| Kitchen | <input title="kitchen" type="button" class="multi-checkbox" onclick="tristate(this)" value="&#x2B1C;" /> |
+| Carriage House | <input title="carriage-house" type="button" class="multi-checkbox" onclick="tristate(this)" value="&#x2B1C;" /> |
+| Trophy Room | <input title="trophy-room" type="button" class="multi-checkbox" onclick="tristate(this)" value="&#x2B1C;" /> |
+| Conservatory | <input title="conservatory" type="button" class="multi-checkbox" onclick="tristate(this)" value="&#x2B1C;" /> |
+| Studio | <input title="studio" type="button" class="multi-checkbox" onclick="tristate(this)" value="&#x2B1C;" /> |
+| Billiard Room | <input title="billiard-room" type="button" class="multi-checkbox" onclick="tristate(this)" value="&#x2B1C;" />  |
+| Library | <input title="library" type="button" class="multi-checkbox" onclick="tristate(this)" value="&#x2B1C;" /> |
+| Fountain | <input title="fountain" type="button" class="multi-checkbox" onclick="tristate(this)" value="&#x2B1C;" /> |

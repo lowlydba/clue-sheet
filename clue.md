@@ -1,4 +1,4 @@
-# Clue
+# Clue - Detective Sheet
 
 ## Suspects
 
