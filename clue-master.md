@@ -41,16 +41,3 @@
 | Billiard Room | <select name="billiard-room" id="billiard-room"><option value="none"></option> <option value="check">✔️</option> <option value="question">❓</option> <option value="x">❌</option></select> |
 | Library | <select name="library" id="library"><option value="none"></option> <option value="check">✔️</option> <option value="question">❓</option> <option value="x">❌</option></select> |
 | Fountain | <select name="fountain" id="fountain"><option value="none"></option> <option value="check">✔️</option> <option value="question">❓</option> <option value="x">❌</option></select> |
-
-<script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
-<script>
-  const options = {
-  label: '🌓', // default: ''
-  bottom: 'unset',
-  right: '32px', // default: '32px'
-}
-  function addDarkmodeWidget() {
-    new Darkmode(options).showWidget();
-  }
-  window.addEventListener('load', addDarkmodeWidget);
-</script>
