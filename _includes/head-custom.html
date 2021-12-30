@@ -1,6 +1,7 @@
 <title>Clue Sheet</title>
 <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
 <script>
+    // Dark / Light Theme Toggle
     const options = {
         label: '🌓', // default: ''
         bottom: 'unset',
@@ -10,5 +11,37 @@
         new Darkmode(options).showWidget();
     }
     window.addEventListener('load', addDarkmodeWidget);
+
+    // Button Controls
+    function tristate(control, value1='\u2610', value2='\u2611', value3='\u2612') {
+        switch (control.value.charAt(0)) {
+            case value1:
+                control.value = value2;
+                break;
+            case value2:
+                control.value = value3;
+                break;
+            case value3:
+                control.value = value1;
+                break;
+            default:
+                alert(control.value);
+        }
+    }
 </script>
+<style>
+    /* Button Style */
+    .multi-checkbox {
+        background-color: white;
+        border: none;
+        color: black;
+        padding: 5px 5px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 26px;
+        margin: 4px 2px;
+        cursor: pointer;
+    }
+</style>
 <link rel="icon" href="favicon.svg">
