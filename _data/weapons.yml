@@ -1,0 +1,25 @@
+- name: Knife
+  base: true
+  
+- name: Candlestsick
+  base: true
+
+- name: Revolver
+  base: true
+
+- name: Rope
+  base: true
+
+- name: Lead Pipe
+  base: true
+
+- name: Wrench
+  base: true
+
+- name: Poison
+  base: false
+  edition: master
+
+- name: Horseshoe
+  base: false
+  edition: master

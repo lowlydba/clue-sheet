@@ -1,19 +1,19 @@
 
-<h2>Suspects</h2>
+<h2>Rooms</h2>
 <table>
     <tr>
       <th>Name</th>
       <th>Status</th>
     </tr>
-  {% for suspect in site.data.suspects %}
-    {% if suspect.base_character %}
+  {% for room in site.data.rooms %}
+    {% if room.base %}
         <tr>
-            <td>{{ suspect.name }}</td>
+            <td>{{ room.name }}</td>
             <td><input type="button" class="multi-checkbox" onclick="tristate(this)" value="&#x2B1C;" /></td>
         </tr>
-    {% elsif suspect.edition == edition %}
+    {% elsif room.edition == edition %}
         <tr>
-            <td>{{ suspect.name }}</td>
+            <td>{{ room.name }}</td>
             <td><input type="button" class="multi-checkbox" onclick="tristate(this)" value="&#x2B1C;" /></td>
         </tr>
     {% endif %}

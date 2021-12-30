@@ -1,0 +1,61 @@
+# Base Rooms
+- name: Dining Room
+  base: true
+
+- name: Kitchen
+  base: true
+
+- name: Conservatory
+  base: true
+
+- name: Billiard Room
+  base: true
+
+- name: Library
+  base: true
+
+# Standard Edition only
+- name: Lounge
+  base: false
+  edition: standard
+
+- name: Hall
+  base: false
+  edition: standard
+
+- name: Ballroom
+  base: false
+  edition: standard
+
+- name: Study
+  base: false
+  edition: standard
+
+# Master Edition only
+- name: Courtyard
+  base: false
+  edition: master
+
+- name: Gazebo
+  base: false
+  edition: master
+
+- name: Drawing Room
+  base: false
+  edition: master
+
+- name: Carriage House
+  base: false
+  edition: master
+
+- name: Trophy Room
+  base: false
+  edition: master
+
+- name: Studio
+  base: false
+  edition: master
+
+- name: Fountain
+  base: false
+  edition: master
