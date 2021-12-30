@@ -13,7 +13,10 @@
     window.addEventListener('load', addDarkmodeWidget);
 
     // Button Controls
-    function tristate(control, value1='\u2610', value2='\u2611', value3='\u2612') {
+    // 2B1C - empty box
+    // 274c - x'd ballot
+    // 2705 - checked ballot
+    function tristate(control, value1='\u2B1C', value2='\u274c', value3='\u2705') {
         switch (control.value.charAt(0)) {
             case value1:
                 control.value = value2;

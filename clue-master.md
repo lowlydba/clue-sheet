@@ -4,7 +4,7 @@
 
 | Name | Status |
 | - | - |
-| Col. Mustard | <input title="col-mustard" type="button" class="multi-checkbox" onclick="tristate(this)" value="&#x2610;" /> |
+| Col. Mustard | <input title="col-mustard" type="button" class="multi-checkbox" onclick="tristate(this)" value="&#x2B1C;" /> |
 | Prof. Plum | <select name="prof-plum" id="plum"><option value="none"></option> <option value="check">✔️</option> <option value="question">❓</option> <option value="x">❌</option></select>|
 | Mr. Green | <select name="mr-green" id="green"><option value="none"></option> <option value="check">✔️</option> <option value="question">❓</option> <option value="x">❌</option></select>|
 | Mrs. Peacock | <select name="mrs-peacock" id="peacock"><option value="none"></option> <option value="check">✔️</option> <option value="question">❓</option> <option value="x">❌</option></select>|
