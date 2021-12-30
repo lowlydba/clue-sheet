@@ -1,3 +1,5 @@
+# Clue Master
+
 ## Suspects
 
 | Name | Status |

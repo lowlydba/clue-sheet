@@ -4,6 +4,5 @@
     "MD007": { "indent": 4 },
     "no-hard-tabs": false,
     "MD033": false,
-    "MD013": false,
-    "MD041": false
+    "MD013": false
 }
