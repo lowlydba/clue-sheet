@@ -38,6 +38,8 @@
 <script>
   const options = {
   label: '🌓', // default: ''
+  bottom: 'unset',
+  right: '32px', // default: '32px'
 }
   function addDarkmodeWidget() {
     new Darkmode(options).showWidget();
