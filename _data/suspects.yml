@@ -1,0 +1,31 @@
+- name: Col. Mustard
+  base_character: true
+
+- name: Prof. Plum
+  base_character: true
+
+- name: Mr. Green
+  base_character: true
+
+- name: Mrs. Peacock
+  base_character: true
+
+- name: Mrs. Scarlet
+  base_character: true
+
+- name: Mme. Rose
+  base_character: false
+  edition: master
+
+- name: Sgt. Gray
+  base_character: false
+  edition: master
+
+- name: M. Brunette
+  base_character: false
+  edition: master
+
+- name: Ms. Peach
+  base_character: false
+  edition: master
+

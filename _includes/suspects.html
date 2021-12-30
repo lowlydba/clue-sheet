@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+
+<h2>Suspects</h2>
+<table>
+    <tr>
+      <th>Name</th>
+      <th>Status</th>
+    </tr>
+  {% for suspect in site.data.suspects %}
+    {% if suspect.base_character %}
+        <tr>
+            <td>{{ suspect.name }}</td>
+            <td><input type="button" class="multi-checkbox" onclick="tristate(this)" value="&#x2B1C;" /></td>
+        </tr>
+    {% elsif suspect.edition == edition %}
+        <tr>
+            <td>{{ suspect.name }}</td>
+            <td><input type="button" class="multi-checkbox" onclick="tristate(this)" value="&#x2B1C;" /></td>
+        </tr>
+    {% endif %}
+  {% endfor %}
+  </table>

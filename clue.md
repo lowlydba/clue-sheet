@@ -4,12 +4,12 @@
 
 | Name | Status |
 | - | - |
-| Col. Mustard | <select name="col-mustard" id="mustard"><option value="none"></option> <option value="check">✔️</option> <option value="question">❓</option> <option value="x">❌</option></select> |
-| Prof. Plum | <select name="prof-plum" id="plum"><option value="none"></option> <option value="check">✔️</option> <option value="question">❓</option> <option value="x">❌</option></select>|
-| Mr. Green | <select name="mr-green" id="green"><option value="none"></option> <option value="check">✔️</option> <option value="question">❓</option> <option value="x">❌</option></select>|
-| Mrs. Peacock | <select name="mrs-peacock" id="peacock"><option value="none"></option> <option value="check">✔️</option> <option value="question">❓</option> <option value="x">❌</option></select>|
-| Mrs. Scarlet | <select name="mrs-scarlet" id="scarlet"><option value="none"></option> <option value="check">✔️</option> <option value="question">❓</option> <option value="x">❌</option></select>|
-| Mrs. White | <select name="mr-white" id="white"><option value="none"></option> <option value="check">✔️</option> <option value="question">❓</option> <option value="x">❌</option></select>|
+| Col. Mustard | <input title="rope" type="button" class="multi-checkbox" onclick="tristate(this)" value="&#x2B1C;" /> |
+| Prof. Plum | <input title="rope" type="button" class="multi-checkbox" onclick="tristate(this)" value="&#x2B1C;" /> |
+| Mr. Green | <input title="rope" type="button" class="multi-checkbox" onclick="tristate(this)" value="&#x2B1C;" /> |
+| Mrs. Peacock | <input title="rope" type="button" class="multi-checkbox" onclick="tristate(this)" value="&#x2B1C;" /> |
+| Mrs. Scarlet | <input title="rope" type="button" class="multi-checkbox" onclick="tristate(this)" value="&#x2B1C;" /> |
+| Mrs. White | <input title="rope" type="button" class="multi-checkbox" onclick="tristate(this)" value="&#x2B1C;" /> |
 
 ## Weapons
 

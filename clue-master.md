@@ -1,18 +1,8 @@
 # Clue Master - Detective Sheet
 
-## Suspects
+{% assign edition = "master" %}
 
-| Name | Status |
-| - | - |
-| Col. Mustard | <input title="col-mustard" type="button" class="multi-checkbox" onclick="tristate(this)" value="&#x2B1C;" /> |
-| Prof. Plum | <input title="prof-plum" type="button" class="multi-checkbox" onclick="tristate(this)" value="&#x2B1C;" /> |
-| Mr. Green | <input title="mr-green" type="button" class="multi-checkbox" onclick="tristate(this)" value="&#x2B1C;" /> |
-| Mrs. Peacock | <input title="mrs-peacock" type="button" class="multi-checkbox" onclick="tristate(this)" value="&#x2B1C;" /> |
-| Mrs. Scarlet | <input title="mrs-scarlet" type="button" class="multi-checkbox" onclick="tristate(this)" value="&#x2B1C;" /> |
-| Mme. Rose | <input title="mme-rose" type="button" class="multi-checkbox" onclick="tristate(this)" value="&#x2B1C;" />  |
-| Sgt. Gray | <input title="sgt-gray" type="button" class="multi-checkbox" onclick="tristate(this)" value="&#x2B1C;" /> |
-| M. Brunette | <input title="m-brunette" type="button" class="multi-checkbox" onclick="tristate(this)" value="&#x2B1C;" /> |
-| Ms. Peach | <input title="ms-peach" type="button" class="multi-checkbox" onclick="tristate(this)" value="&#x2B1C;" /> |
+{% include suspects.html %}
 
 ## Weapons
 
