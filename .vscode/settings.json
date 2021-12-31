@@ -4,5 +4,10 @@
     },
     "[javascript]": {
         "editor.tabSize": 2
+    },
+    "[css]": {
+        "editor.tabSize": 2,
+        "editor.detectIndentation": false
     }
+    
 }
