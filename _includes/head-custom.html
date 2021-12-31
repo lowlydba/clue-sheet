@@ -1,37 +1,7 @@
 <!DOCTYPE html>
+<script src="js/status_changer.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
-<script>
-    // Dark / Light Theme Toggle
-    const options = {
-        label: '🌓', // default: ''
-        bottom: 'unset',
-        right: '32px', // default: '32px'
-    }
-    function addDarkmodeWidget() {
-        new Darkmode(options).showWidget();
-    }
-    window.addEventListener('load', addDarkmodeWidget);
-
-    // Button Controls
-    // 2B1C - empty box
-    // 274c - x'd ballot
-    // 2705 - checked ballot
-    function tristate(control, value1='\u2B1C', value2='\u274c', value3='\u2705') {
-        switch (control.value.charAt(0)) {
-            case value1:
-                control.value = value2;
-                break;
-            case value2:
-                control.value = value3;
-                break;
-            case value3:
-                control.value = value1;
-                break;
-            default:
-                alert(control.value);
-        }
-    }
-</script>
+<script src="js/darkmode.js"></script>
 <style>
     /* Button Style */
     .multi-checkbox {
