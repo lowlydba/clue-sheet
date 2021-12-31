@@ -8,7 +8,7 @@ function statusButtonChanger (control) {
 
   let index = Data.map(function (e) { return e.value }).indexOf(control.value)
   index++
-  if (index >= Data.length) {
+  if ((index) >= Data.length) {
     index = 0
   }
   control.value = Data[index].value
@@ -28,7 +28,6 @@ function statusButtonChanger (control) {
 // Attach function to all checkboxes
 window.onload = function () {
   const elements = document.getElementsByClassName('multi-checkbox')
-
   for (let i = 0; i < elements.length; i++) {
     elements[i].onclick = function () {
       statusButtonChanger(this)
