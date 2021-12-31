@@ -9,11 +9,10 @@
     }
 
     function addDarkmodeWidget() {
-        const dm = new DarkMode(options)
-        dm.showWidget()
+        new DarkMode(options).showWidget()
     }
 
     window.addEventListener('load', addDarkmodeWidget)
 </script>
-<link rel="stylesheet" href="/assets/css/styles.css">
+<link rel="stylesheet" href="./assets/css/styles.css">
 <link rel="icon" href="favicon.svg">
