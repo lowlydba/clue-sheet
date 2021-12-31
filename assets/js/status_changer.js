@@ -15,13 +15,13 @@ function statusButtonChanger (control) {
   const clue = $(control).closest('td').siblings('.guess-component') // eslint-disable-line no-undef
   switch (Data[index].status) {
     case 'x':
-      clue.toggleClass('x').siblings().removeClass()
+      clue.toggleClass('x').siblings().removeClass('checked')
       break
     case 'checked':
-      clue.toggleClass('checked').siblings().removeClass()
+      clue.toggleClass('checked').siblings().removeClass('x')
       break
     default:
-      clue.removeClass()
+      clue.removeClass('x checked')
   }
 }
 
