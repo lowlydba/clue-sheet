@@ -9,3 +9,11 @@
   font-size: 18px;
   cursor: pointer;
 }
+
+/* Text changes depending on button status */
+.checked {
+  font-weight: bold;
+}
+.x {
+  text-decoration: line-through;
+}

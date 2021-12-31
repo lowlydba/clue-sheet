@@ -8,12 +8,12 @@
   {% for room in site.data.rooms %}
     {% if room.base %}
         <tr>
-            <td>{{ room.name }}</td>
+            <td class="guess-component">{{ room.name }}</td>
             <td><input type="button" class="multi-checkbox" value="&#x2B1C;" /></td>
         </tr>
     {% elsif room.edition == edition %}
         <tr>
-            <td>{{ room.name }}</td>
+            <td class="guess-component">{{ room.name }}</td>
             <td><input type="button" class="multi-checkbox" value="&#x2B1C;" /></td>
         </tr>
     {% endif %}
