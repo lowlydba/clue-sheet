@@ -15,12 +15,12 @@ function statusButtonChanger (control) {
 }
 
 // Attach function to all checkboxes
-window.onload = function() {    
-  let elements = document.getElementsByClassName("multi-checkbox");
+window.onload = function () {
+  const elements = document.getElementsByClassName('multi-checkbox')
 
-  for(let i = 0; i < elements.length; i++) {
-      elements[i].onclick = function () {
-        statusButtonChanger(this)
-      }
+  for (let i = 0; i < elements.length; i++) {
+    elements[i].onclick = function () {
+      statusButtonChanger(this)
+    }
   }
-};
+}
