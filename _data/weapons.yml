@@ -1,25 +1,33 @@
 - name: Knife
   base: true
+  emoji: 🔪
   
 - name: Candlestsick
   base: true
+  emoji: 🕎
 
 - name: Revolver
   base: true
+  emoji: 🔫
 
 - name: Rope
   base: true
+  emoji: ⛓️
 
 - name: Lead Pipe
   base: true
+  emoji: 🦿
 
 - name: Wrench
   base: true
+  emoji: 🔧
 
 - name: Poison
   base: false
   edition: master
+  emoji: 🏺
 
 - name: Horseshoe
   base: false
   edition: master
+  emoji: 🐴
