@@ -1,0 +1,11 @@
+/* Multi-Checkbox Button Style */
+.multi-checkbox {
+  background: transparent;
+  border: none;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  cursor: pointer;
+}

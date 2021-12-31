@@ -1,17 +1,19 @@
 <!DOCTYPE html>
-<script type = "text/javascript" src="./assets/js/status_changer.js"></script>
-<script type = "text/javascript" src="./assets/js/darkmode.js"></script>
-<style>
-    /* Button Style */
-    .multi-checkbox {
-        background: transparent;
-        border: none;
-        color: black;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 18px;
-        cursor: pointer;
+<script type="text/javascript" src="./assets/js/status_changer.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
+<script type="text/javascript">
+    const options = {
+        label: '🌓', // default: ''
+        bottom: 'unset',
+        right: '32px' // default: '32px'
     }
-</style>
+
+    function addDarkmodeWidget() {
+        const dm = new DarkMode(options)
+        dm.showWidget()
+    }
+
+    window.addEventListener('load', addDarkmodeWidget)
+</script>
+<link rel="stylesheet" href="/assets/css/styles.css">
 <link rel="icon" href="favicon.svg">
