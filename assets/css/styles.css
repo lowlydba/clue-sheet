@@ -10,6 +10,10 @@
   cursor: pointer;
 }
 
+.guess-component {
+  width: 100px;
+}
+
 /* Text changes depending on button status */
 .checked {
   font-weight: bold;
