@@ -8,5 +8,5 @@ Simple, interactive detective sheets to use for the board game Clue.
 
 | Edition |
 | ------- |
-| [Clue](clue.md) | 
-| [Clue Master](clue-master.md) |
+| [Clue](https://lowlydba.github.io/clue-sheet/clue) | 
+| [Clue Master](https://lowlydba.github.io/clue-sheet/clue-master) |
