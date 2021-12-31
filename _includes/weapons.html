@@ -8,12 +8,12 @@
     {% if weapon.base %}
         <tr>
             <td>{{ weapon.name }}</td>
-            <td><input type="button" class="multi-checkbox" onclick="tristate(this)" value="&#x2B1C;" /></td>
+            <td><input type="button" class="multi-checkbox" value="&#x2B1C;" /></td>
         </tr>
     {% elsif weapon.edition == edition %}
         <tr>
             <td>{{ weapon.name }}</td>
-            <td><input type="button" class="multi-checkbox" onclick="tristate(this)" value="&#x2B1C;" /></td>
+            <td><input type="button" class="multi-checkbox" value="&#x2B1C;" /></td>
         </tr>
     {% endif %}
   {% endfor %}

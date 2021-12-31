@@ -9,12 +9,12 @@
     {% if room.base %}
         <tr>
             <td>{{ room.name }}</td>
-            <td><input type="button" class="multi-checkbox" onclick="tristate(this)" value="&#x2B1C;" /></td>
+            <td><input type="button" class="multi-checkbox" value="&#x2B1C;" /></td>
         </tr>
     {% elsif room.edition == edition %}
         <tr>
             <td>{{ room.name }}</td>
-            <td><input type="button" class="multi-checkbox" onclick="tristate(this)" value="&#x2B1C;" /></td>
+            <td><input type="button" class="multi-checkbox" value="&#x2B1C;" /></td>
         </tr>
     {% endif %}
   {% endfor %}

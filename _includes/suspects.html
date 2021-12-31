@@ -9,12 +9,12 @@
     {% if suspect.base_character %}
         <tr>
             <td>{{ suspect.name }}</td>
-            <td><input type="button" class="multi-checkbox" onclick="tristate(this)" value="&#x2B1C;" /></td>
+            <td><input type="button" class="multi-checkbox" value="&#x2B1C;" /></td>
         </tr>
     {% elsif suspect.edition == edition %}
         <tr>
             <td>{{ suspect.name }}</td>
-            <td><input type="button" class="multi-checkbox" onclick="tristate(this)" value="&#x2B1C;" /></td>
+            <td><input type="button" class="multi-checkbox" value="&#x2B1C;" /></td>
         </tr>
     {% endif %}
   {% endfor %}
