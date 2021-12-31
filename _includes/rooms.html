@@ -1,4 +1,3 @@
-
 <h2>Rooms</h2>
 <table>
     <tr>
@@ -6,12 +5,7 @@
       <th>Status</th>
     </tr>
   {% for room in site.data.rooms %}
-    {% if room.base %}
-        <tr>
-            <td class="guess-component">{{ room.name }}</td>
-            <td><input type="button" class="multi-checkbox" value="&#x2B1C;" /></td>
-        </tr>
-    {% elsif room.edition == edition %}
+    {% if room.base or room.edition == edition %}
         <tr>
             <td class="guess-component">{{ room.name }}</td>
             <td><input type="button" class="multi-checkbox" value="&#x2B1C;" /></td>
