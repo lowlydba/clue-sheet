@@ -15,6 +15,5 @@ function statusButtonChanger (control) {
 }
 
 // Attach function to all checkboxes
-var x = document.getElementByClass('multi-checkbox')
+let x = document.getElementByClass('multi-checkbox')
 x.onlick = function () { statusButtonChanger(this) }
-
