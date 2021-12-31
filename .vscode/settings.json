@@ -8,6 +8,8 @@
     "[css]": {
         "editor.tabSize": 2,
         "editor.detectIndentation": false
+    },
+    "files.associations": {
+        "*.htmlhintrc": "json"
     }
-    
 }

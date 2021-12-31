@@ -1,4 +1,3 @@
-
 <h2>Suspects</h2>
 <table>
     <tr>
@@ -6,14 +5,9 @@
       <th>Status</th>
     </tr>
   {% for suspect in site.data.suspects %}
-    {% if suspect.base_character %}
+    {% if suspect.base_character or suspect.edition == edition%}
         <tr>
-            <td>{{ suspect.name }}</td>
-            <td><input type="button" class="multi-checkbox" value="&#x2B1C;" /></td>
-        </tr>
-    {% elsif suspect.edition == edition %}
-        <tr>
-            <td>{{ suspect.name }}</td>
+            <td class="guess-component">{{ suspect.name }}</td>
             <td><input type="button" class="multi-checkbox" value="&#x2B1C;" /></td>
         </tr>
     {% endif %}
