@@ -1,4 +1,4 @@
-# 
+# About
 
 ![lint badge](https://img.shields.io/github/workflow/status/LowlyDBA/clue-sheet/Lint?label=Lint%20Code%20Base)
 
