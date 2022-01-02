@@ -1,4 +1,4 @@
-# Clue - Detective Sheet
+# Clue Standard Edition
 
 {% assign edition = "standard" %}
 
