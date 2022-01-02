@@ -1,4 +1,4 @@
-# Clue Master - Detective Sheet
+# Clue Master Edition
 
 {% assign edition = "master" %}
 
