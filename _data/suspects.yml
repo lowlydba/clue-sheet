@@ -2,6 +2,10 @@
   base_character: true
   emoji: 🟨
 
+- name: Dr. Orchid
+  base_character: true
+  emoji: 🎴
+
 - name: Prof. Plum
   base_character: true
   emoji: 🟪
