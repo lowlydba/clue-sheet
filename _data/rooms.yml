@@ -1,49 +1,49 @@
 # Base Rooms
-- name: Dining Room
+- name: RAM CLOUDER
   base: true
   emoji: 🍽️
 
-- name: Kitchen
+- name: TEXCHANGER
   base: true
   emoji: 🍳
 
-- name: Conservatory
+- name: WIDGET KID
   base: true
   emoji: 🔭
 
-- name: Billiard Room
+- name: LINKSLAYER
   base: true
   emoji: 🎱
 
-- name: Library
+- name: BACKUP SECRETARY
   base: true
   emoji: 📚
 
 # Standard Edition only
-- name: Lounge
-  base: false
+- name: LAUNCHER COMMANDER
+  base: true
   edition: standard
   emoji: 🛋️
 
-- name: Hall
-  base: false
+- name: BITROOPER
+  base: true
   edition: standard
   emoji: 🏛️
 
-- name: Ballroom
-  base: false
+- name: BATTLE FADER
+  base: true
   edition: standard
   emoji: 🕺
 
-- name: Study
-  base: false
+- name: SWIFT SCARECROW
+  base: true
   edition: standard
   emoji: 📜
 
 # Master Edition only
-- name: Courtyard
-  base: false
-  edition: master
+- name: CLIANT
+  base: true
+  edition: standard
   emoji: 🗿
 
 - name: Gazebo
