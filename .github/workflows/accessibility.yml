@@ -29,7 +29,7 @@ jobs:
         run: npm install --global pa11y-ci
 
       - name: Serve site
-        run: npx http-server ./_site --port 8080 --silent &
+        run: python3 -m http.server 8080 --directory ./_site &
 
       - name: Wait for server
         run: |
