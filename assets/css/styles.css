@@ -22,3 +22,10 @@
 .x {
   text-decoration: line-through;
 }
+
+/* darkmode-js injects its own stylesheet after this one loads, so !important
+   is needed to reliably override its default button background, which fails
+   WCAG2AA contrast against the button's default text color. */
+.darkmode-toggle {
+  background-color: #73728f !important;
+}
