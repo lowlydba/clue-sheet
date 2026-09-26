@@ -32,7 +32,13 @@ jobs:
         run: npx http-server ./_site --port 8080 --silent &
 
       - name: Wait for server
-        run: npx wait-on http://127.0.0.1:8080
+        run: |
+          for i in $(seq 1 30); do
+            curl -sf http://127.0.0.1:8080/clue.html -o /dev/null && exit 0
+            sleep 1
+          done
+          echo "Server did not start in time" >&2
+          exit 1
 
       - name: Run WCAG accessibility checks
         run: pa11y-ci --config .pa11yci.json
