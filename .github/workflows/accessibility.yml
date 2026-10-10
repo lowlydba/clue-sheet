@@ -1,11 +1,14 @@
 # This workflow builds the Jekyll site and tests the rendered pages against
-# WCAG accessibility standards using pa11y-ci whenever a pull request is opened
+# WCAG accessibility standards using lowlysre/pa11y-ci-action whenever a pull request is opened
 # against the default branch.
 name: Accessibility
 
 on:
   pull_request:
     branches: [ main ]
+
+permissions:
+  contents: read
 
 jobs:
   pa11y:
@@ -23,10 +26,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020 # v7.0.0
         with:
-          node-version: '20'
-
-      - name: Install pa11y-ci
-        run: npm install --global pa11y-ci
+          node-version: '22'
 
       - name: Serve site
         run: python3 -m http.server 8080 --directory ./_site &
@@ -41,4 +41,4 @@ jobs:
           exit 1
 
       - name: Run WCAG accessibility checks
-        run: pa11y-ci --config .pa11yci.json
+        uses: lowlysre/pa11y-ci-action@84174759cd514bd3ea3bcaa30dc1798dde81f713 # v1.1.0
