@@ -4,10 +4,6 @@ title: Changelog
 
 # Changelog
 
-Current version: **{{ site.version }}**
-
-Versions were assigned retroactively from the git history and are not tied to tags or releases.
-
 ## 1.3.0 - 2026-10-09
 
 - Added Clue Classic, Clue 2016-2022, and Clue 2023 editions alongside Clue Master ([#8](https://github.com/lowlydba/clue-sheet/pull/8))
