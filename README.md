@@ -13,4 +13,5 @@ Short link: [bit.ly/clue-sheet](https://bit.ly/clue-sheet)
 | ------- |
 | [Clue Classic](https://lowlydba.github.io/clue-sheet/clue-classic) |
 | [Clue 2016-2022](https://lowlydba.github.io/clue-sheet/clue-2016) |
+| [Clue 2023](https://lowlydba.github.io/clue-sheet/clue-2023) |
 | [Clue Master](https://lowlydba.github.io/clue-sheet/clue-master) |
