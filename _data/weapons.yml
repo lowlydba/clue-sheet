@@ -3,27 +3,27 @@
   emoji: 🔪
 
 - name: Dagger
-  editions: [2016, 2023]
+  editions: ["2016", "2023"]
   emoji: 🗡️
   
 - name: Candlestick
-  editions: [classic, 2016, 2023, master]
+  editions: [classic, "2016", "2023", master]
   emoji: 🕎
 
 - name: Revolver
-  editions: [classic, 2016, 2023, master]
+  editions: [classic, "2016", "2023", master]
   emoji: 🔫
 
 - name: Rope
-  editions: [classic, 2016, 2023, master]
+  editions: [classic, "2016", "2023", master]
   emoji: ⛓️
 
 - name: Lead Pipe
-  editions: [classic, 2016, 2023, master]
+  editions: [classic, "2016", "2023", master]
   emoji: 🦿
 
 - name: Wrench
-  editions: [classic, 2016, 2023, master]
+  editions: [classic, "2016", "2023", master]
   emoji: 🔧
 
 - name: Poison

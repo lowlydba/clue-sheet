@@ -1,5 +1,5 @@
 - name: Col. Mustard
-  editions: [classic, 2016, 2023, master]
+  editions: [classic, "2016", "2023", master]
   emoji: 🟨
 
 - name: Mrs. White
@@ -7,31 +7,31 @@
   emoji: ⬜
 
 - name: Chef White
-  editions: [2023]
+  editions: ["2023"]
   emoji: ⬜
 
 - name: Dr. Orchid
-  editions: [2016, master]
+  editions: ["2016", master]
   emoji: 🎴
 
 - name: Prof. Plum
-  editions: [classic, 2016, 2023, master]
+  editions: [classic, "2016", "2023", master]
   emoji: 🟪
 
 - name: Mr. Green
-  editions: [classic, 2016, master]
+  editions: [classic, "2016", master]
   emoji: 🟩
 
 - name: Mayor Green
-  editions: [2023]
+  editions: ["2023"]
   emoji: 🟩
 
 - name: Mrs. Peacock
-  editions: [classic, 2016, master]
+  editions: [classic, "2016", master]
   emoji: 🦚
 
 - name: Solicitor Peacock
-  editions: [2023]
+  editions: ["2023"]
   emoji: 🦚
 
 - name: Miss Scarlet
@@ -39,7 +39,7 @@
   emoji: 🟥
 
 - name: Miss Scarlett
-  editions: [2016, 2023]
+  editions: ["2016", "2023"]
   emoji: 🟥
 
 - name: Mme. Rose

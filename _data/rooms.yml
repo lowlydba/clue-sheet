@@ -1,39 +1,39 @@
 # Base Rooms
 - name: Dining Room
-  editions: [classic, 2016, 2023, master]
+  editions: [classic, "2016", "2023", master]
   emoji: 🍽️
 
 - name: Kitchen
-  editions: [classic, 2016, 2023, master]
+  editions: [classic, "2016", "2023", master]
   emoji: 🍳
 
 - name: Conservatory
-  editions: [classic, 2016, 2023, master]
+  editions: [classic, "2016", "2023", master]
   emoji: 🔭
 
 - name: Billiard Room
-  editions: [classic, 2016, 2023, master]
+  editions: [classic, "2016", "2023", master]
   emoji: 🎱
 
 - name: Library
-  editions: [classic, 2016, 2023, master]
+  editions: [classic, "2016", "2023", master]
   emoji: 📚
 
 # Classic, 2016-2022 and 2023 editions only
 - name: Lounge
-  editions: [classic, 2016, 2023]
+  editions: [classic, "2016", "2023"]
   emoji: 🛋️
 
 - name: Hall
-  editions: [classic, 2016, 2023]
+  editions: [classic, "2016", "2023"]
   emoji: 🏛️
 
 - name: Ballroom
-  editions: [classic, 2016, 2023]
+  editions: [classic, "2016", "2023"]
   emoji: 🕺
 
 - name: Study
-  editions: [classic, 2016, 2023]
+  editions: [classic, "2016", "2023"]
   emoji: 📜
 
 # Master Edition only
