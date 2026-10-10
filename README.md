@@ -11,5 +11,6 @@ Short link: [bit.ly/clue-sheet](https://bit.ly/clue-sheet)
 
 | Edition |
 | ------- |
-| [Clue](https://lowlydba.github.io/clue-sheet/clue) |
+| [Clue Classic (Mrs. White)](https://lowlydba.github.io/clue-sheet/clue-classic) |
+| [Clue 2016-2022 (Dr. Orchid)](https://lowlydba.github.io/clue-sheet/clue-2016) |
 | [Clue Master](https://lowlydba.github.io/clue-sheet/clue-master) |

@@ -1,33 +1,31 @@
 - name: Knife
-  base: true
+  editions: [classic, 2016, master]
   emoji: 🔪
   
 - name: Candlestick
-  base: true
+  editions: [classic, 2016, master]
   emoji: 🕎
 
 - name: Revolver
-  base: true
+  editions: [classic, 2016, master]
   emoji: 🔫
 
 - name: Rope
-  base: true
+  editions: [classic, 2016, master]
   emoji: ⛓️
 
 - name: Lead Pipe
-  base: true
+  editions: [classic, 2016, master]
   emoji: 🦿
 
 - name: Wrench
-  base: true
+  editions: [classic, 2016, master]
   emoji: 🔧
 
 - name: Poison
-  base: false
-  edition: master
+  editions: [master]
   emoji: 🏺
 
 - name: Horseshoe
-  base: false
-  edition: master
+  editions: [master]
   emoji: 🐴
