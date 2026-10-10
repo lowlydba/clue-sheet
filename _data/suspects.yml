@@ -1,44 +1,59 @@
 - name: Col. Mustard
-  base_character: true
+  editions: [classic, "2016", "2023", master]
   emoji: 🟨
 
+- name: Mrs. White
+  editions: [classic]
+  emoji: ⬜
+
+- name: Chef White
+  editions: ["2023"]
+  emoji: ⬜
+
 - name: Dr. Orchid
-  base_character: true
+  editions: ["2016", master]
   emoji: 🎴
 
 - name: Prof. Plum
-  base_character: true
+  editions: [classic, "2016", "2023", master]
   emoji: 🟪
 
 - name: Mr. Green
-  base_character: true
+  editions: [classic, "2016", master]
+  emoji: 🟩
+
+- name: Mayor Green
+  editions: ["2023"]
   emoji: 🟩
 
 - name: Mrs. Peacock
-  base_character: true
+  editions: [classic, "2016", master]
   emoji: 🦚
 
-- name: Mrs. Scarlet
-  base_character: true
+- name: Solicitor Peacock
+  editions: ["2023"]
+  emoji: 🦚
+
+- name: Miss Scarlet
+  editions: [classic, master]
+  emoji: 🟥
+
+- name: Miss Scarlett
+  editions: ["2016", "2023"]
   emoji: 🟥
 
 - name: Mme. Rose
-  base_character: false
-  edition: master
+  editions: [master]
   emoji: 🌹
 
 - name: Sgt. Gray
-  base_character: false
-  edition: master
+  editions: [master]
   emoji: 👨‍🦳
 
 - name: M. Brunette
-  base_character: false
-  edition: master
+  editions: [master]
   emoji: 🟫
 
 - name: Ms. Peach
-  base_character: false
-  edition: master
+  editions: [master]
   emoji: 🍑
-

@@ -1,6 +1,6 @@
-# Clue Standard Edition
+# Clue Classic Edition
 
-{% assign edition = "standard" %}
+{% assign edition = "classic" %}
 
 {% include suspects.html %}
 

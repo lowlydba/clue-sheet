@@ -1,5 +1,5 @@
 # This workflow builds the Jekyll site and tests the rendered pages against
-# WCAG accessibility standards using pa11y-ci whenever a pull request is opened
+# WCAG accessibility standards using lowlysre/pa11y-ci-action whenever a pull request is opened
 # against the default branch.
 name: Accessibility
 
@@ -7,12 +7,24 @@ on:
   pull_request:
     branches: [ main ]
 
+permissions: {}
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   pa11y:
+    name: pa11y
     runs-on: ubuntu-latest
+    permissions:
+      contents: read # check out the repository
+      pull-requests: write # post the sticky accessibility summary comment
     steps:
       - name: Checkout code
         uses: actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10 # v6.0.3
+        with:
+          persist-credentials: false
 
       - name: Build Jekyll site
         uses: actions/jekyll-build-pages@44a6e6beabd48582f863aeeb6cb2151cc1716697 # v1.0.13
@@ -23,22 +35,21 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020 # v7.0.0
         with:
-          node-version: '20'
-
-      - name: Install pa11y-ci
-        run: npm install --global pa11y-ci
+          node-version: '22'
 
       - name: Serve site
         run: python3 -m http.server 8080 --directory ./_site &
 
       - name: Wait for server
         run: |
-          for i in $(seq 1 30); do
-            curl -sf http://127.0.0.1:8080/clue.html -o /dev/null && exit 0
+          for _ in $(seq 1 30); do
+            curl -sf http://127.0.0.1:8080/clue-classic.html -o /dev/null && exit 0
             sleep 1
           done
           echo "Server did not start in time" >&2
           exit 1
 
       - name: Run WCAG accessibility checks
-        run: pa11y-ci --config .pa11yci.json
+        uses: lowlysre/pa11y-ci-action@84174759cd514bd3ea3bcaa30dc1798dde81f713 # v1.1.0
+        with:
+          comment-on-pr: true
