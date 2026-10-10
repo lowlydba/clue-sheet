@@ -5,13 +5,13 @@
 Simple, interactive detective sheets to use for the board game Clue / Cluedo that are mobile friendly.
 Not intended to offer an advantage over those using the traditional paper sheets.
 
-Short link: [bit.ly/clue-sheet](https://bit.ly/clue-sheet)
+Site: [sheet.lowlydba.com](https://sheet.lowlydba.com)
 
 ## Editions
 
 | Edition |
 | ------- |
-| [Clue Classic](https://lowlydba.github.io/clue-sheet/clue-classic) |
-| [Clue 2016-2022](https://lowlydba.github.io/clue-sheet/clue-2016) |
-| [Clue 2023](https://lowlydba.github.io/clue-sheet/clue-2023) |
-| [Clue Master](https://lowlydba.github.io/clue-sheet/clue-master) |
+| [Clue Classic](https://sheet.lowlydba.com/clue-classic) |
+| [Clue 2016-2022](https://sheet.lowlydba.com/clue-2016) |
+| [Clue 2023](https://sheet.lowlydba.com/clue-2023) |
+| [Clue Master](https://sheet.lowlydba.com/clue-master) |
