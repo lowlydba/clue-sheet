@@ -15,3 +15,5 @@ Site: [sheet.lowlydba.com](https://sheet.lowlydba.com)
 | [Clue 2016-2022](https://sheet.lowlydba.com/clue-2016) |
 | [Clue 2023](https://sheet.lowlydba.com/clue-2023) |
 | [Clue Master](https://sheet.lowlydba.com/clue-master) |
+
+See the [changelog](https://sheet.lowlydba.com/changelog) for version history.

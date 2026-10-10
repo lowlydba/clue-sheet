@@ -11,6 +11,7 @@
     "http://127.0.0.1:8080/clue-classic.html",
     "http://127.0.0.1:8080/clue-2016.html",
     "http://127.0.0.1:8080/clue-2023.html",
-    "http://127.0.0.1:8080/clue-master.html"
+    "http://127.0.0.1:8080/clue-master.html",
+    "http://127.0.0.1:8080/changelog.html"
   ]
 }
